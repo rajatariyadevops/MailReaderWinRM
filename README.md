@@ -92,11 +92,11 @@ Then update appsettings.json:
 ## 3. Configure database
    ```sql
    CREATE TABLE MailInbox (
-   Id INT IDENTITY(1,1) PRIMARY KEY,
-   ReceivedAt DATETIME,
-   Sender NVARCHAR(255),
-   Subject NVARCHAR(255),
-   Body NVARCHAR(MAX)
+     Id INT IDENTITY(1,1) PRIMARY KEY,
+     ReceivedAt DATETIME,
+     Sender NVARCHAR(255),
+     Subject NVARCHAR(255),
+     Body NVARCHAR(MAX)
    );
 
 
